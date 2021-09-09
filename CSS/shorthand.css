@@ -1,0 +1,17 @@
+/* 
+junção de propriedades
+resumido
+legivel 
+*/
+
+h1{
+    background-color: blue;
+    background-image: url(image);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+/* SHORTHAND */
+h2{
+    background: blue url(image) no-repeat right top;
+}
