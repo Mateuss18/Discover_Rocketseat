@@ -1,0 +1,32 @@
+<form action="">
+    <datalist id="emailslist">
+        <option>mateus20.lopes02@gmail.com</option>
+    </datalist>
+    <input type="email" list="emailslist">
+    <button type="submit">ENVIAR</button>
+</form>
+
+<form action="">
+    <input type="email"
+        placeholder="E-mail"
+        pattern=".+@gmail/.com"
+        title="Somente gmails são aceitos"
+    >
+    <button type="submit">ENVIAR</button>
+</form>
+
+<form action="">
+    <input type="email"
+        multiple
+    >
+    <button type="submit">ENVIAR</button>
+</form>
+
+<form action="">
+    <input type="email"
+        minlength="8"
+        maxlength="60"
+        size="20"
+    >
+    <button type="submit">ENVIAR</button>
+</form>
