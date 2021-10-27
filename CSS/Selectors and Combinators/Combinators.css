@@ -1,0 +1,8 @@
+/* 
+é possivel selecionar apenas o elemento filho 
+*/
+
+/* exemplo procure dentro do BODY um ARTICLE e mude seu H1 */
+body article h1{
+  font-size: 13em;
+}

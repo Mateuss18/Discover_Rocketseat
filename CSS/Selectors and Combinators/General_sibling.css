@@ -1,0 +1,8 @@
+/* Sleciona todos os irmãos
+
+exemplo selecione todos os irmãos que estiverem entre h1 e h5
+*/
+
+h1 ~ h5{
+  font-family: 'Courier New', Courier, monospace;
+}

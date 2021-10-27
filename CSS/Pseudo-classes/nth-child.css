@@ -1,0 +1,23 @@
+/* Seleciona apenas o elemento que voce escolher
+exemplo dentro do ARTICLE selecione TERCEIRO P
+*/
+
+article p:nth-child(3){
+  color: aqua;
+}
+
+/* odd impar 
+  even par
+
+  seleciona apenas os elementos odd ou even
+*/
+
+ul li:nth-child(odd){
+  color: red;
+  background-color: yellow;
+}
+
+ul li:nth-child(even){
+  color: yellow;
+  background-color: red;
+}

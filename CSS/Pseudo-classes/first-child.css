@@ -1,0 +1,7 @@
+/*
+Seleciona apenas o primeiro filho
+*/
+
+ul li:first-child {
+  font-style: italic;
+}

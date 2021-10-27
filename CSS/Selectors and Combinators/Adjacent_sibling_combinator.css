@@ -1,0 +1,10 @@
+/*
+  Sleciona somente i elemento ao lado direito do irmão
+
+  exemplo slecione o irmão do lado direito do elemento P
+*/
+
+p + h2{
+  background-color: yellow;
+}
+

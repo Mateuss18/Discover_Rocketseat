@@ -1,0 +1,10 @@
+/* 
+Seleciona apenas o primeiro filho do pai
+
+Exemplo procure no BODY uma DIV e mude sua COR
+caso haja outras div abaixo ele não ira aplicar a mudança de cor
+*/
+
+body > div {
+   color: red;
+}
