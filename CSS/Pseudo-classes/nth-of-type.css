@@ -1,0 +1,8 @@
+/* 
+  Seleciona o elmento a partir do seu tipo
+  exemplo dos P selecione o QUINTO
+*/
+
+p:nth-of-type(5){
+  font-size: 19px;
+}

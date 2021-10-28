@@ -1,0 +1,15 @@
+/*
+  É utilizado para desabilitar um elemento, ele é colocado no HTML e pode ser modificado no CSS
+*/
+
+input:disable{
+  background-color: red;
+}
+
+/*
+  É utilizado quando um elemento for requisitado, ele é colocado no HTML e pode ser modificado no CSS
+*/
+
+button:required{
+  color: black;
+}

@@ -1,0 +1,20 @@
+/*
+  Hover quando o mouse passa em cima do elemento
+  Focus quando se clica no elemento 
+
+  exemplo mude a cor do A quando o mouse passar por cima dele
+*/
+
+a:hover{
+  color: brown;
+}
+
+/*
+  exemplo muda a cor do button quando clicar nele
+*/
+
+button:focus{
+  color: burlywood;
+}
+
+

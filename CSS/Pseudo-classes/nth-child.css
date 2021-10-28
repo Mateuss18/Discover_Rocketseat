@@ -1,5 +1,5 @@
-/* Seleciona apenas o elemento que voce escolher
-exemplo dentro do ARTICLE selecione TERCEIRO P
+/* Seleciona apenas o filho do elemento que voce escolher
+exemplo dentro do ARTICLE selecione TERCEIRO FILHO
 */
 
 article p:nth-child(3){
