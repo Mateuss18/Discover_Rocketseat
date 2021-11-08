@@ -1,0 +1,7 @@
+/*
+  Muda apenas a primeira linha de um elemento
+*/
+
+p::first-line{
+  font-size: 20px;
+}

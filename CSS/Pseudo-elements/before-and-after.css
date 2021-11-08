@@ -1,0 +1,18 @@
+/*
+  Coloca um elemento HTML atravez do CSS
+
+  exemplo: colocando o conteudo > depois de um li
+*/
+
+li::after{
+  content: ">";
+}
+
+/*
+  colocando um > antes de um li
+*/
+
+li::before{
+  content: ">";
+}
+
