@@ -1,0 +1,15 @@
+/*
+  Utilizando o box sizing border-box o elemento sera achatado para que o tamanho seja respeitado
+*/
+
+div{
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+
+  box-sizing: border-box;
+}
+
+/*
+  A div vai continuar com 100 px de largura e altura mesmo com um padding de 20px
+*/
