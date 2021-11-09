@@ -1,0 +1,15 @@
+body{
+  background-color: black;
+}
+
+img{
+  height: auto;
+  width: 30%;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .8rem;
+}
