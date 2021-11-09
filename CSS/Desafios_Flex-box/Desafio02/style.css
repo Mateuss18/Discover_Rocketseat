@@ -1,0 +1,17 @@
+body{
+  display: flex;
+  gap: 1rem;
+}
+
+.coluna1, .coluna2{
+  border: 1px rgb(102, 102, 102) solid;
+  height: 95vh;
+}
+
+.coluna1 {
+  flex-basis: 25%;
+}
+
+.coluna2 {
+  flex: 1;
+}
