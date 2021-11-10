@@ -1,0 +1,15 @@
+.button1{
+  display: flex;
+  align-items: center;
+  background-color: rgb(191, 0, 0);
+  color: white;
+
+  line-height: 0;
+
+  gap: .8rem;
+}
+
+img{
+  width: 2rem;
+  height: 2rem;
+}
