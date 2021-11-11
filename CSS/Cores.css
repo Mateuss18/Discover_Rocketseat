@@ -1,0 +1,13 @@
+element{
+  color: #090; /* RED GREEN BLUE - Do 0 ao F */
+
+  color: rgb(red, green, blue); /* Vai do 0 a 255 */
+  color: rgba(red, green, blue, alpha); /* Alpha muda a opacidade */
+
+  color: hsl(hue, saturation, lightness); 
+  color: hsla(hue, saturation, lightness, alpha);
+
+  color: inherit; /* Erda a cor do elemento anterior */
+  color: initial; /* Volda para cor inicial */
+  color: unset; /* Pega a cor do contexto que ele esta */
+}
