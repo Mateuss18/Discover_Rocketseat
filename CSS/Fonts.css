@@ -1,0 +1,45 @@
+element{
+  font-family: 'Courier New', Courier, monospace; /*Caso não tenha a primeira font o navegador tenta pegar a segunda e depois a terceira*/
+
+  font-weight: normal; /*Muda o peso da font*/
+
+  font-style: italic; /*Muda o estilo da font*/
+
+  font-size: 29px; /*Muda o tamanho da font  */
+
+  /*Podemos usar fonts que não estão no nosso computador usando:
+
+  HTML -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet"> 
+  
+  OU
+
+  CSS -->
+  @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+  */
+
+  font-variant: small-caps; /*Deixa todas as letras em caps respeitando seu temanho orginial*/
+
+  letter-spacing: 4px; /*Coloca um espaço entre as letras*/
+  word-spacing: 10px; /*Espaço entre as palavras*/
+  line-height: 10px; /*Espaço entre as linhas*/
+
+  text-transform: uppercase; /*Todas as letras ficam maiusculas*/
+  text-transform: lowercase; /*Todas letras minusculas*/
+  text-transform: capitalize; /*So a primeira letra fica maiuscula*/
+
+  text-decoration: underline; /*Coloca linha abaixo do texto*/
+  text-decoration: overline; /*Linha acima do texto*/
+  text-decoration: line-through; /*Linha no meio do texto*/
+  /*Tambem é possivel adicionar mais de uma ao mesmo tempo, e colocar uma cor na linha*/
+
+  text-align: center; /*Faz o alinhamento do texto*/
+
+  text-shadow: 10px 4px 2px black; /*X Y Blur e color*/
+
+  /*SHORTHAND
+    style  variant weight stretch size  line-height e family*/
+  font: italic normal bold normal 2em/2 Arial;
+}
