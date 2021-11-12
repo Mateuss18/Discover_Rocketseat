@@ -1,0 +1,27 @@
+element{
+  background-color: red;
+
+  background-image: url(imhttps://images.ecycle.com.br/wp-content/uploads/2021/05/20195924/o-que-e-paisagem.jpgage);
+  background-repeat: no-repeat; /*Ele não vai se repetir na tela */
+  background-position: center; /*Muda a posição da imagem*/
+
+  background-size: contain; /*Fica dentro sem esticar */
+  background-size: cover; /*Ela se estica para combrir todo o espaço do background*/
+  background-size: 40% 10%; /*Largura e Altura*/
+
+  background-origin: border-box; /*Começa a partir da borda*/
+  background-origin: content-box; /*Ela começa depois do padding*/
+  background-origin: padding-box; /*Começa antes do padding*/
+
+  background-clip: border-box /*Imagem e fundo se tornam um só*/ ;
+
+  background-attachment: fixed; /*O Background não se mexe ao dar scroll*/
+
+
+  /*SHORTHAND*/
+  background: red url(imhttps://images.ecycle.com.br/wp-content/uploads/2021/05/20195924/o-que-e-paisagem.jpgage) no-repeat center;
+
+  background: linear-gradient(18deg, red, black); /*Muda o angulo de onde a cor ira vir, vai da primeira cor até a ultima*/
+
+  background: radial-gradient(red, black, blue); /*Faz um efeito circular com as cores*/
+}
